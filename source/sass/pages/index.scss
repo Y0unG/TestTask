@@ -1,0 +1,179 @@
+.favourites span {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 3px;
+  background-color: #fff;
+}
+
+.FavsButton {
+  padding: 3px;
+  margin: 5px;
+  max-height: 35px;
+  background-color: lightgrey;
+  border: 2px solid #4e555b;
+  border-radius: 10px;
+}
+
+.OrderButton {
+  color: #4e555b;
+  border: 2px solid #4e555b;
+  border-radius: 20px 20px 20px 20px;
+
+}
+
+.SearchInput {
+  height: 37px;
+  padding-left: 7px;
+  margin-right: 5%;
+  min-width: 70%;
+  border: 2px solid #4e555b;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.SearchButton {
+  width: 17%;
+  height: 37px;
+  margin-top: -5px;
+  padding: 5px;
+  color: #4e555b;
+  background-color: red;
+  border: 2px solid #4e555b;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.noDataMessage {
+  display: none;
+}
+
+.gallery {
+  margin: 5px;
+  padding: 0;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery-item {
+  position: relative;
+  margin: 1%;
+}
+
+.gallery-item-popover {
+  font-size: 10px;
+  color: black;
+  background: white;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+
+  .gallery-item:hover &{
+    opacity: .7;
+  }
+}
+
+.popover {
+  margin-bottom: -140px;
+  max-width: 150px;
+}
+
+.modal-body img {
+  float: left;
+  margin-right: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.addFav {
+  color: #4e555b;
+  background-color: red;
+  border: 2px solid #4e555b;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.view {
+  color: #4e555b;
+  background-color: lightgrey;
+  margin-left: 7px;
+  padding: 2px;
+  border: 2px solid #4e555b;
+  border-radius: 20px;
+
+}
+
+.view:hover {
+  text-decoration: none;
+  color: #4e555b;
+}
+
+.closeButton {
+  color: #4e555b;
+  background-color: lightgrey;
+  margin-right: 7px;
+  padding: 2px;
+  border: 2px solid #4e555b;
+  border-radius: 20px ;
+}
+
+.justify-content-between {
+  margin: 7px;
+}
+
+.page-item.active .page-link {
+  background-color: #4e555b;
+  border-color: #4e555b;
+}
+
+.page-link {
+  border: none;
+  color: #4e555b;
+}
+
+.page-item.active {
+  background-color: #4e555b;
+  border-color: #4e555b;
+}
+
+.numberItems a {
+  color: #4e555b;
+}
+
+.numberItems span {
+  font-size: 16px;
+}
+
+.breadcrumb {
+  background-color: #fff;
+}
+/* Details */
+
+
+
+.object {
+  max-width: 100%;
+}
+
+.tags li {
+  list-style: none;
+  margin: 3px;
+}
+
+.info {
+  margin: 5px;
+}
+
+/* favs */
+
+.favourite {
+  border: 1px solid red;
+}

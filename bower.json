@@ -1,0 +1,22 @@
+{
+  "name": "looqme",
+  "description": "Bower template for this project",
+  "main": "index.js",
+  "authors": [],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^4.2.1",
+    "popper.js": "^1.14.7"
+  }
+}

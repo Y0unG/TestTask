@@ -1,0 +1,35 @@
+@mixin font($alias, $name, $fw: normal, $fs: normal) {
+  @font-face {
+    font-family: $alias;
+    //src: url("../fonts/" + $name + ".otf");
+    //src: //url("../fonts/" + $name + ".eot?#iefix") format("embedded-opentype"),
+      //url("../fonts/" + $name + ".woff") format("woff"),
+    src: url("../fonts/" + $name + ".ttf") format("truetype");
+    font-weight: $fw;
+    font-style: $fs;
+  }
+}
+
+//animation
+
+// keyframes mixin
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin animation($arguments) {
+  -webkit-animation: #{$arguments};
+  -moz-animation: #{$arguments};
+  animation: #{$arguments};
+}
